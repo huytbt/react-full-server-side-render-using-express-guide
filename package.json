@@ -1,0 +1,33 @@
+{
+  "name": "react-full-server-side-render-using-express-guide",
+  "version": "1.0.0",
+  "description": "Full server side render React using ExpressJs guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huytbt/react-full-server-side-render-using-express-guide.git"
+  },
+  "author": "huytbt@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huytbt/react-full-server-side-render-using-express-guide/issues"
+  },
+  "homepage": "https://github.com/huytbt/react-full-server-side-render-using-express-guide#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
